@@ -11,3 +11,25 @@ HareNTortoise is a FrontEnd web application built using reactJs.HareNTortoise pr
 
 - **Frontend**:  ReactJS with Tailwind CSS for Frontend.
 - **Animation Library**: Framer Motion..
+- 
+# Follow these steps to run this on your local machine:
+
+
+## Clone the repository
+
+- git clone https://github.com/Shiji-AA/HareNTortoise-Project.git
+
+ ## Setting up the Frontend
+
+- Navigate to the HareNtortoise directory:
+
+  cd hare-tortoise-race
+
+ - Install the dependencies:
+   
+   npm install
+   
+- To start the frontend :
+ 
+   npm run dev
+

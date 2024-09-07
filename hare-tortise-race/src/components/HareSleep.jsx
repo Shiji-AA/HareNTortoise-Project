@@ -11,8 +11,8 @@ function HareSleep() {
       setScrollPosition(window.scrollY);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -24,31 +24,35 @@ function HareSleep() {
         backgroundPosition: "center",
       }}
     >
-   {/* Hare image animation */}
       <motion.img
-       className="absolute bottom-0 w-36 h-32 z-20"
+        className="absolute bottom-0 w-36 h-32 z-20"
         src={hare}
         alt="Hare"
         animate={{ x: scrollPosition > 800 ? 300 : 0 }}
-        transition={{ duration: 10, ease: "linear" }}      
-       />
+        transition={{ duration: 10, ease: "linear" }}
+      />
 
       <motion.h1
-  className="absolute text-3xl font-bold text-center  z-30"
-  initial={{ opacity: 0, x: [-120, 0] }}
-  animate={{
-    color: "#ff2994",
-    opacity: 1,
-    scale: [1, 1.2, 1],
+        className="absolute text-3xl font-bold text-center  z-30"
+        initial={{ opacity: 0, x: [-120, 0] }}
+        animate={{
+          color: "#ff2994",
+          opacity: 1,
+          scale: [1, 1.2, 1],
 
-    x: [0, 450],
-    y: [ 0,150],
-  }}
-  transition={{ type: "spring", stiffness:120,delay: 14, duration: 2, ease: "easeInOut" }}
->
-  I am tired !!! Lets sleep for some time
-</motion.h1>
-
+          x: [0, 450],
+          y: [0, 150],
+        }}
+        transition={{
+          type: "spring",
+          stiffness: 120,
+          delay: 14,
+          duration: 2,
+          ease: "easeInOut",
+        }}
+      >
+        I am tired !!! Lets sleep for some time
+      </motion.h1>
     </div>
   );
 }

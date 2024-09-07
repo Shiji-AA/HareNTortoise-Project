@@ -4,7 +4,7 @@ HareNTortoise is a FrontEnd web application built using reactJs.HareNTortoise pr
 
 ## Links
 
-- **Live Link**: https://hare-n-tortoise-project-gbf0sfl1j.vercel.app/
+- **Live Link**: https://hare-n-tortoise-project.vercel.app/
 
 
 ## Features

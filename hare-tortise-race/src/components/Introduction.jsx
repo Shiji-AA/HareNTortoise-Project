@@ -41,7 +41,7 @@ function Introduction() {
             src={tortoise}
             alt="Tortoise"
             animate={{ x: [0, 100] }}
-            transition={{ duration: 5, ease: "easeInOut" }}
+            transition={{ duration: 5,repeat: Infinity, ease: "easeInOut" }}
           />
 
           <motion.img

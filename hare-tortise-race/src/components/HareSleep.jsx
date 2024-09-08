@@ -51,7 +51,7 @@ function HareSleep() {
           ease: "easeInOut",
         }}
       >
-        I am tired !!! Lets sleep for some time
+     The win is nearly secured, so let's relax for a bit
       </motion.h1>
     </div>
   );
